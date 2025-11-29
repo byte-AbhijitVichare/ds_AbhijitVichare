@@ -38,8 +38,8 @@ ds_AbhijitVichare/
 
 | Notebook | Purpose | Link |
 |---------|----------|------|
-| **Notebook 1** | Data loading, cleaning, preprocessing, merging, EDA | 
-| **Notebook 2** | Feature engineering, sentiment modeling, clustering |
+| **Notebook 1** | Data loading, cleaning, preprocessing, merging, EDA | https://colab.research.google.com/drive/1i0caa4Vm55FaZ5kuYxVFzM3tLfarEVTp?usp=sharing|
+| **Notebook 2** | Feature engineering, sentiment modeling, clustering |https://colab.research.google.com/drive/1mKo0FpF2a87vClsEsN-gLnDvEbmux1ou?usp=sharing|
 
 👉 Make sure sharing is set to: **Anyone with the link can view**
 
@@ -115,3 +115,4 @@ This project is completed as part of the **Web3 Trading Team Internship Selectio
 
 
 ---
+

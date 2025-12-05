@@ -1,12 +1,11 @@
-# Trader Behavior vs Market Sentiment Analysis  
-**Candidate:** Abhijit Vichare  
-**Assignment:** Web3 Trading Team – Data Science Internship  
+Trader Behavior vs Market Sentiment Analysis  
+Candidate: Abhijit Vichare  
+Assignment: Web3 Trading Team – Data Science Internship  
 
 This project analyzes the relationship between trader activity on Hyperliquid and overall crypto market sentiment using the Fear & Greed Index. It includes data cleaning, EDA, predictive modeling, and trader clustering.
 
----
 
-## 📁 Project Structure
+Project Structure
 ds_AbhijitVichare/
 │
 ├── notebook_1.ipynb # Data Cleaning + EDA
@@ -32,28 +31,24 @@ ds_AbhijitVichare/
 ├── ds_report_full.pdf # Final Report
 └── README.md # Project Documentation
 
----
 
-## 📌 **Google Colab Notebooks**
+Google Colab Notebooks
 
 | Notebook | Purpose | Link |
 |---------|----------|------|
-| **Notebook 1** | Data loading, cleaning, preprocessing, merging, EDA | https://colab.research.google.com/drive/1i0caa4Vm55FaZ5kuYxVFzM3tLfarEVTp?usp=sharing|
-| **Notebook 2** | Feature engineering, sentiment modeling, clustering |https://colab.research.google.com/drive/1mKo0FpF2a87vClsEsN-gLnDvEbmux1ou?usp=sharing|
+| Notebook 1 | Data loading, cleaning, preprocessing, merging, EDA | https://colab.research.google.com/drive/1i0caa4Vm55FaZ5kuYxVFzM3tLfarEVTp?usp=sharing|
+| Notebook 2 | Feature engineering, sentiment modeling, clustering |https://colab.research.google.com/drive/1mKo0FpF2a87vClsEsN-gLnDvEbmux1ou?usp=sharing|
 
-👉 Make sure sharing is set to: **Anyone with the link can view**
 
----
-
-## 📊 **Project Overview**
+Project Overview
 
 This assignment explores:
 
-### **1. Market Sentiment (Fear, Greed, Neutral, Extreme values)**
+1. Market Sentiment (Fear, Greed, Neutral, Extreme values)
 - Loaded from Fear & Greed Index dataset  
 - Merged with trader activity by date
 
-### **2. Trader Behavior**
+2. Trader Behavior
 - Volume (USD)  
 - Token size  
 - Closed PnL  
@@ -61,13 +56,13 @@ This assignment explores:
 - Trading frequency  
 - Active days  
 
-### **3. EDA Visualizations**
+3. EDA Visualizations
 - Daily PnL over time  
 - PnL distribution by sentiment  
 - Trading volume vs sentiment  
 - Outlier detection  
 
-### **4. Predictive Modeling**
+4. Predictive Modeling
 - Predict next-day sentiment using RandomForest  
 - Lag features and volatility  
 - Model evaluation with:
@@ -75,23 +70,20 @@ This assignment explores:
   - ROC Curve  
   - Feature importance  
 
-### **5. Trader Segmentation (Clustering)**
+5. Trader Segmentation (Clustering)
 - KMeans clustering of accounts  
 - PCA visualization  
 - Interpretation of cluster behavior  
 
----
 
-## 📈 **Key Insights**
+Key Insights
 
 - Trader volume increases significantly during **Neutral** and **Greed** phases.
 - Highest PnL spikes occur during **Fear**, contradicting typical expectations.
 - RandomForest model struggled due to **dataset imbalance** and **limited predictive signal**.
 - Clustering revealed distinct trader profiles, even with small samples.
 
----
-
-## 📝 **How To Run**
+How To Run
 
 1. Open both notebooks in Google Colab.  
 2. Upload the CSV files inside `/csv_files`.  
@@ -99,20 +91,9 @@ This assignment explores:
 4. Run **notebook_2.ipynb** for modeling and clustering.  
 5. Outputs will be saved automatically into the `/outputs` folder.
 
----
-
-## 📄 **Final Report**
+Final Report
 
 The full detailed analysis is available in:
 
-👉 **ds_report_full.pdf**
-
----
-
-## 🙌 **Acknowledgement**
-
-This project is completed as part of the **Web3 Trading Team Internship Selection Assignment**.
-
-
----
+ds_report_full.pdf
 
